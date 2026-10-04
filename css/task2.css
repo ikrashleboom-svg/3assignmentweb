@@ -1,0 +1,43 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fdf6ec;
+    color: #2d2a26;
+}
+
+h1 {
+    color: #c8553d;
+}
+
+.item {
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    height: 100%;
+}
+
+.item h4 {
+    margin-top: 0;
+}
+
+.item small {
+    opacity: 0.8;
+}
+
+.item1 {
+    background-color: #1d4e5f;
+}
+
+.item2 {
+    background-color: #e9a23b;
+    color: #2d2a26;
+}
+
+.item3 {
+    background-color: #588157;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 26px;
+    }
+}
